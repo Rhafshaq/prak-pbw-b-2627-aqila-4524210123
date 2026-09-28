@@ -8,11 +8,11 @@ function statusKelulusan(float $ipk): string
 }
 
 $mahasiswa = [
-    'nim' => '108',
-    'nama' => 'Firyal',
+    'nim' => '4524210123',
+    'nama' => 'Aqila',
     'prodi' => 'Teknik Informatika',
     'semester' => 5,
-    'ipk' => 3.71
+    'ipk' => 3.62
 ];
 ?>
 <!doctype html>
