@@ -124,7 +124,7 @@ Digunakan untuk menjalankan seluruh query pembuatan tabel yang terdapat dalam ar
 
 Masukkan screenshot hasil program sebelum dilakukan modifikasi.
 
-**File screenshot:**
+**File screenshots:**
 
 ```text
 tugas3-sebelum.png
@@ -135,10 +135,10 @@ tugas3-sebelum.png
 
 Masukkan screenshot hasil program setelah dilakukan modifikasi.
 
-**File screenshot:**
+**File screenshots:**
 
 ```text
-tugas4(3)-sesudah.png
+tugas3-sesudah.png
 
 ```
 
