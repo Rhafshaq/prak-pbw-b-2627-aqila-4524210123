@@ -101,27 +101,17 @@ LIMIT 10
 
 Digunakan untuk mengurutkan mahasiswa berdasarkan IPK tertinggi dan nama, serta membatasi jumlah data yang ditampilkan.
 
+---
+
 ## Screenshot Tugas 1
 
 ### Sebelum Modifikasi
 
-Masukkan screenshot hasil program sebelum dilakukan modifikasi.
-
-**File screenshot:**
-
-```text
-tugas4(1)-sebelum.png
-```
+![Screenshot Tugas 1 Sebelum](screenshots/tugas4(1)-sebelum.png)
 
 ### Sesudah Modifikasi
 
-Masukkan screenshot hasil program setelah dilakukan modifikasi.
-
-**File screenshot:**
-
-```text
-tugas4(1)-sesudah.png
-```
+![Screenshot Tugas 1 Sesudah](screenshots/tugas4(1)-sesudah.png)
 
 ---
 
