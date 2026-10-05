@@ -203,23 +203,11 @@ Digunakan untuk mencari satu mahasiswa dengan nilai IPK tertinggi.
 
 ### Sebelum Modifikasi
 
-Masukkan screenshot hasil program sebelum dilakukan modifikasi.
-
-**File screenshot:**
-
-```text
-![Tugas 3 Sebelum Modifikasi](screenshots/tugas4(1)-sebelum.png)
-```
+![Screenshot Tugas 2 Sebelum](screenshots/tugas4(2)-sebelum.png)
 
 ### Sesudah Modifikasi
 
-Masukkan screenshot hasil program setelah dilakukan modifikasi.
-
-**File screenshot:**
-
-```text
-![Tugas 3 Sebelum Modifikasi](screenshots/tugas4(1)-sesudah.png)
-```
+![Screenshot Tugas 2 Sesudah](screenshots/tugas4(2)-sesudah.png)
 
 ---
 
