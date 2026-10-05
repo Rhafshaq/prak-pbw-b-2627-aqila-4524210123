@@ -122,23 +122,15 @@ Digunakan untuk menjalankan seluruh query pembuatan tabel yang terdapat dalam ar
 
 ### Sebelum Modifikasi
 
-Masukkan screenshot hasil program sebelum dilakukan modifikasi.
+Screenshot hasil program sebelum dilakukan modifikasi.
 
-**File screenshots:**
-
-```text
-tugas3-sebelum.png
-
-```
+![Tugas 3 Sebelum Modifikasi](screenshots/tugas3-sebelum.png)
 
 ### Sesudah Modifikasi
 
-Masukkan screenshot hasil program setelah dilakukan modifikasi.
+Screenshot hasil program setelah dilakukan modifikasi.
 
-**File screenshots:**
-
-```text
-tugas3-sesudah.png
+![Tugas 3 Sesudah Modifikasi](screenshots/tugas3-sesudah.png)
 
 ```
 
