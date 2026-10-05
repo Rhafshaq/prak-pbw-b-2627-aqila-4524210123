@@ -14,6 +14,7 @@ if (mysqli_query($koneksi, $sqlUpdate)) {
 } else {
     echo "Gagal UPDATE : " . mysqli_error($koneksi) . "\n";
 }
+
 // ==========================================
 // 2. SELECT & GROUP BY: Rekap jumlah mahasiswa per prodi
 // ==========================================
@@ -35,7 +36,36 @@ if (mysqli_num_rows($resultRekap) > 0) {
     echo "Belum ada data rekap prodi.\n";
 }
 echo "\n";
+
 // ==========================================
 // 3. SELECT: Verifikasi sebelum penghapusan
 // ==========================================
-echo "=== 3. VERIFIKASI DATA"
+echo "=== 3. VERIFIKASI DATA (NIM 2025003) ===\n";
+$sqlVerifikasi = "SELECT * FROM mahasiswa WHERE nim = '2025003'";
+$resultVerifikasi = mysqli_query($koneksi, $sqlVerifikasi);
+
+// cek apakah data yang mau dihapus benar-benar ada
+if (mysqli_num_rows($resultVerifikasi) > 0) {
+    $row = mysqli_fetch_assoc($resultVerifikasi);
+    echo "Data Ditemukn!\n";
+    echo "NIM : " . $row['nim'] . "\n";
+    echo "Nama : " . $row['nama'] . "\n";
+    echo "IPK : " . $row['ipk'] . "\n\n";
+
+// ==========================================
+// 4. DELETE: Menghapus data
+// ==========================================
+echo "=== 4. PROSES HAPUS DATA ===\n";
+$sqlDelete = "DELETE FROM mahasiswa WHERE nim = '2025003'";
+if (mysqli_query($koneksi, $sqlDelete)) {
+    echo "[SUKSES] Data mahasiswa dengan NIM 2025003 berhasil dihapus dari database.\n";
+}   else {
+    echo "[ERROR] Gagal menghapus data: " . mysqli_error($koneksi) . "\n";
+}
+
+} else {
+    echo "Data mahasiswa dengan NIM 2025003 TIDAK DITEMUKAN (Mungkin sudah terhapus sebelumnya).\n";
+}
+
+mysqli_close($koneksi);
+?>

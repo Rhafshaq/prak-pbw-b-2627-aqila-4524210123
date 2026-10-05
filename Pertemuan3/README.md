@@ -1,6 +1,6 @@
 # Praktikum Pemrograman Berbasis Web - Pertemuan 3
 
-Repository ini berisi hasil praktikum Pemrograman Berbasis Web Pertemuan 3, terdiri dari Tugas 3 menggunakan PHP dan MySQL.
+Repository ini berisi hasil praktikum Pemrograman Berbasis Web Pertemuan 3, yang terdiri dari Tugas 1, Tugas 2, dan Tugas 3 menggunakan PHP dan MySQL.
 
 ## Identitas
 
@@ -124,7 +124,7 @@ Digunakan untuk menjalankan seluruh query pembuatan tabel yang terdapat dalam ar
 
 Masukkan screenshot hasil program sebelum dilakukan modifikasi.
 
-**File screenshots:**
+**File screenshot:**
 
 ```text
 tugas3-sebelum.png
@@ -135,10 +135,10 @@ tugas3-sebelum.png
 
 Masukkan screenshot hasil program setelah dilakukan modifikasi.
 
-**File screenshots:**
+**File screenshot:**
 
 ```text
-tugas3-sesudah.png
+tugas4(3)-sesudah.png
 
 ```
 
@@ -146,20 +146,34 @@ tugas3-sesudah.png
 
 # Error yang Pernah Muncul
 
-### Error: MySQL pada XAMPP Tidak Bisa Dibuka
+### Error: `Could not open input file: tugas4`
 
-Error yang pernah muncul adalah **MySQL pada XAMPP tidak dapat dijalankan (tidak bisa start)**. Kondisi ini menyebabkan program PHP yang membutuhkan koneksi ke database tidak dapat dijalankan dengan normal.
+Error muncul ketika menjalankan file PHP dengan nama yang mengandung tanda kurung, yaitu `tugas4(1).php`.
 
-**Penyebab:**
-MySQL dapat gagal dijalankan karena port MySQL sedang digunakan oleh aplikasi atau service lain, sehingga terjadi konflik pada port.
+Perintah yang menyebabkan error:
 
-**Perbaikan:**
-Pengecekan dilakukan melalui **XAMPP Control Panel** untuk melihat status MySQL dan memastikan tidak ada service lain yang menggunakan port MySQL. Setelah konflik port ditangani, MySQL dijalankan kembali melalui XAMPP hingga statusnya aktif.
+```powershell
+& "C:\xampp\php\php.exe" tugas4(1).php
+
+```
+
+Penyebabnya adalah nama file tidak ditulis sebagai satu nama file secara utuh.
+
+### Perbaikan
+
+Nama file ditulis menggunakan tanda petik:
+
+```powershell
+& "C:\xampp\php\php.exe" "tugas4(1).php"
+
+```
+
+Setelah nama file diberi tanda petik, program dapat dijalankan dengan benar.
 
 ---
 
 # Kesimpulan
 
-Pada Tugas 3, telah dibuat database `akademik` beserta beberapa tabel yang digunakan dalam sistem akademik, yaitu `mahasiswa`, `dosen`, `mata_kuliah`, `krs`, dan `mk_krs`. Program juga menggunakan **Primary Key** dan **Foreign Key** untuk mengatur hubungan antar tabel.
+Pada praktikum Pertemuan 3, telah dilakukan implementasi program PHP yang terhubung dengan database MySQL. Tugas 1 membahas proses INSERT dan SELECT dengan kondisi tertentu, Tugas 2 membahas proses UPDATE, SELECT, GROUP BY, dan DELETE, sedangkan Tugas 3 membahas pembuatan database dan tabel beserta relasi antar tabel.
 
-Modifikasi yang dilakukan berupa penambahan field `no_hp` dan `status` pada tabel `mahasiswa`. Dengan adanya modifikasi tersebut, data mahasiswa menjadi lebih lengkap dan dapat menyimpan informasi nomor handphone serta status akademik mahasiswa.
+Selain menjalankan program asli, dilakukan beberapa modifikasi berupa penambahan kondisi program studi, status berdasarkan IPK, penambahan data mahasiswa, fitur untuk mencari mahasiswa dengan IPK tertinggi, penambahan nomor handphone, serta penambahan status akademik mahasiswa. Modifikasi tersebut membuat program memiliki fungsi tambahan dan memberikan hasil yang lebih informatif.
