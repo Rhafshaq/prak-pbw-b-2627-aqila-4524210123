@@ -1,4 +1,4 @@
-# Tugas Pertemuan 5
+# Praktikum Pemrograman Berbasis Web - Tugas Pertemuan 5
 
 ## 1. Deskripsi
 Program ini merupakan aplikasi sederhana untuk mengelola data mahasiswa menggunakan PHP dan MySQL. Program terdiri dari file koneksi database, pengambilan data, form input, dan penyimpanan data.
