@@ -1,10 +1,10 @@
 # Praktikum Pemrograman Berbasis Web - Tugas Pertemuan 7
 
-## Deskripsi
+## DESKRIPSI
 
 Program ini merupakan aplikasi penjualan produk sederhana menggunakan PHP dan MySQL dengan konsep MVC (*Model, View, Controller*). Program memiliki fitur untuk menambahkan produk, menampilkan daftar produk, mengedit data produk, dan menghapus produk. Data produk terdiri dari nama produk, harga, dan stok yang disimpan dalam database MySQL.
 
-## Identitas
+## IDENTITAS
 
 | | |
 |---|---|
