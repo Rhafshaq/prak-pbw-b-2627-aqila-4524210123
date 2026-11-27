@@ -1,7 +1,7 @@
 # Praktikum Pemrograman Berbasis Web - Tugas Kelompok Pertemuan 9
 
 ## 1. Identitas Kelompok
-  ----- -------------------------- ------------
+
   1.     Raudha Hafsha Aqila        4524210123
   2.     Davina Arthamevia Azahra   4524210127
   3.     Refani Usman               4524210144
@@ -66,18 +66,14 @@ tetap nyaman dibaca melalui layar ponsel.
 
 ## 5. Perbandingan Tampilan
 
-  -----------------------------------------------------------------------
-  Perangkat               Susunan Kartu           Karakteristik Tampilan
-  ----------------------- ----------------------- -----------------------
-  Desktop                 4 kolom dalam 1 baris   Memanfaatkan layar
+- Desktop                 4 kolom dalam 1 baris   Memanfaatkan layar
                                                   lebar
 
-  Tablet                  2 kolom dalam 2 baris   Menyesuaikan lebar
+- Tablet                  2 kolom dalam 2 baris   Menyesuaikan lebar
                                                   layar menengah
 
-  Smartphone              1 kolom dalam 4 baris   Kartu ditampilkan
+- Smartphone              1 kolom dalam 4 baris   Kartu ditampilkan
                                                   secara vertikal
-  -----------------------------------------------------------------------
 
 ## 6. Kesimpulan
 
