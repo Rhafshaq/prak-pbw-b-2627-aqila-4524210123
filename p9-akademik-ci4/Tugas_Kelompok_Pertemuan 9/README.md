@@ -1,12 +1,11 @@
 # Praktikum Pemrograman Berbasis Web - Tugas Kelompok Pertemuan 9
 
 ## 1. Identitas Kelompok
-
   No.   Nama                       NPM
   ----- -------------------------- ------------
-  1     Raudha Hafsha Aqila        4524210123
-  2     Davina Arthamevia Azahra   4524210127
-  3     Refani Usman               4524210144
+  1.     Raudha Hafsha Aqila        4524210123
+  2.     Davina Arthamevia Azahra   4524210127
+  3.     Refani Usman               4524210144
 
 ## 2. Tujuan Praktik
 
